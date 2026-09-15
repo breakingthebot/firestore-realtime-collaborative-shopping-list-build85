@@ -1,0 +1,30 @@
+# Local Build Ignores & Secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Local Project Rules & Private Notes
+AGENTS.md
+BUILD_NOTES.md
+docs/summaries/
+summaries/
+*iteration*.md
+*iteration*_summary.md
+*.log
+
+# Python Runtime & Tests
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+.next/
+
